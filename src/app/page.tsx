@@ -1,8 +1,11 @@
+import WhatsappButton from "@/components/WhatsappButton"
+import NavBar from "../components/NavBar"
+
 const Refiltoner = () => {
   
   return(
     <main>
-      Refiltoner website
+      <WhatsappButton/>
     </main>
   )
 }
