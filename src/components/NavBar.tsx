@@ -6,7 +6,6 @@ const NavBar = () => {
     }
 
     const navLinks: NavLinks[] = [
-        { label: "Quem somos", href: "#quemsomos" },
         { label: "Como trabalhamos", href: "#comotrabalhamos" },
         { label: "Quem atendemos", href: "#quematendemos" },
         { label: "Marcas", href: "#marcas" },
