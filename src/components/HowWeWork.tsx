@@ -1,6 +1,6 @@
 const HowWeWork = () => {
     return (
-        <section className="flex items-center justify-center p-12">
+        <section id="comotrabalhamos" className="flex items-center justify-center p-12">
             <h1>Como Trabalhamos</h1>
         </section>
     )

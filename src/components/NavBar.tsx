@@ -14,14 +14,19 @@ const NavBar = () => {
 
     return (
         <nav>
-            <header className="bg-white shadow-lg z-50 flex justify-between items-center px-20 py-4">
-                <a>
-                    <img src="/logo.svg" />
-                </a>
+            <header className="fixed inset-x-0 bg-white shadow-lg z-20 flex justify-between items-center px-20 py-4">
+                <div className="absolute bg-[url(/fundoNav4.png)] inset-0 z-0 bg-cover bg-center" />
 
-                <div className="flex gap-7">
+                <div className="z-10 pl-42 pb-2">
+                    <a href="#">
+                        <img src="/logo.svg" height={240} width={240} />
+                    </a>
+                </div>
+
+
+                <div className="flex gap-7 z-10 pr-88 text-[17px]">
                     {navLinks.map(link => (
-                        <a key={link.label} href={link.href} >
+                        <a key={link.label} href={link.href} className="hover:scale-105  hover:text-[#8B1E23] text-[16px] text-gray-800 font-semibold opacity-70 transition">
                             {link.label}
                         </a>
                     ))}
