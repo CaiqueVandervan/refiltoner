@@ -1,6 +1,6 @@
 import WhatsappButton from "@/components/WhatsappButton"
 import NavBar from "@/components/NavBar"
-import HeroSection from "@/components/HeroSection"
+import Hero from "@/components/Hero"
 import HowWeWork from "@/components/HowWeWork"
 import WhoWeServe from "@/components/WhoWeServe"
 import Brands from "@/components/Brands"
@@ -12,15 +12,15 @@ const Refiltoner = () => {
     <main>
       <NavBar />
 
-      <HeroSection />
+      <Hero />
 
       <HowWeWork />
 
-      <WhoWeServe/>
+      <WhoWeServe />
 
-      <Brands/>
+      <Brands />
 
-      <Contact/>
+      <Contact />
 
       <WhatsappButton />
     </main>
