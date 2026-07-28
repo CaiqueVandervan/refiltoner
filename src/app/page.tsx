@@ -1,10 +1,10 @@
 import WhatsappButton from "@/components/WhatsappButton"
-import NavBar from "@/components/NavBar"
-import Hero from "@/components/Hero"
-import HowWeWork from "@/components/HowWeWork"
-import WhoWeServe from "@/components/WhoWeServe"
-import Brands from "@/components/Brands"
-import Contact from "@/components/Contact"
+import NavBar from "@/components/sections/NavBar"
+import Hero from "@/components/sections/Hero"
+import About from "@/components/sections/About"
+import WhoWeServe from "@/components/sections/WhoWeServe"
+import Contact from "@/components/sections/Contact"
+import OurServices from "@/components/sections/OurServices"
 
 const Refiltoner = () => {
 
@@ -14,11 +14,11 @@ const Refiltoner = () => {
 
       <Hero />
 
-      <HowWeWork />
+      <OurServices />
 
       <WhoWeServe />
 
-      <Brands />
+      <About />
 
       <Contact />
 
