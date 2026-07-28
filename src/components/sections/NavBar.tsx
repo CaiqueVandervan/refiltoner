@@ -1,4 +1,4 @@
-const NavBar = () => {
+export default function NavBar() {
 
     interface NavLinks {
         label: string
@@ -6,8 +6,9 @@ const NavBar = () => {
     }
 
     const navLinks: NavLinks[] = [
-        { label: "Como trabalhamos", href: "#comotrabalhamos" },
+        { label: "Sobre", href: "#sobre" },
         { label: "Quem atendemos", href: "#quematendemos" },
+        { label: "Nossos Serviços", href: "#nossosservicos" },
         { label: "Marcas", href: "#marcas" },
         { label: "Contato", href: "#contato" }
     ]
@@ -26,8 +27,11 @@ const NavBar = () => {
 
                 <div className="flex gap-7 z-10 pr-88 text-[17px]">
                     {navLinks.map(link => (
-                        <a key={link.label} href={link.href} className="hover:scale-105  hover:text-[#8B1E23] text-[16px] text-gray-800 font-semibold opacity-70 transition">
-                            {link.label}
+                        <a key={link.label} href={link.href} className="relative group font-semibold hover:scale-104 duration-200 hover:text-[#8B1E23]">
+
+                            <span className="opacity-60 ">{link.label}</span>
+
+                            <span className="absolute h-1 bg-[#8B1E23] w-full left-0 top-full mt-2 scale-x-0 group-hover:scale-x-100 transition duration-300 origin-left rounded-xl" />
                         </a>
                     ))}
                 </div>
@@ -35,5 +39,3 @@ const NavBar = () => {
         </nav>
     )
 }
-
-export default NavBar
