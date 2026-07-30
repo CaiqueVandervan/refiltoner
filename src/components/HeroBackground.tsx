@@ -22,7 +22,7 @@ export default function HeroBackground() {
                 <div className="absolute left-[80%] top-[-30%] h-[180%] w-20 rotate-135 bg-[#33363B]/1.5" />
 
                 {/* Brilho vermelho muito sutil */}
-                <div className="absolute top-40  h-170 w-312 bg-[#8B1E23]/[0.099] rounded-full blur-[80px]" />
+                {/* <div className="absolute top-40  h-170 w-312 bg-[#8B1E23]/[0.099] rounded-full blur-[80px]" /> */}
 
             </div>
         </div>
