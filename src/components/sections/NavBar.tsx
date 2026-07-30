@@ -6,10 +6,8 @@ export default function NavBar() {
     }
 
     const navLinks: NavLinks[] = [
-        { label: "Sobre", href: "#sobre" },
-        { label: "Quem atendemos", href: "#quematendemos" },
         { label: "Nossos Serviços", href: "#nossosservicos" },
-        { label: "Marcas", href: "#marcas" },
+        { label: "Sobre", href: "#sobre" },
         { label: "Contato", href: "#contato" }
     ]
 
@@ -25,7 +23,7 @@ export default function NavBar() {
                 </div>
 
 
-                <div className="flex gap-7 z-10 pr-88 text-[17px]">
+                <div className="flex gap-14 z-10 pr-92 text-[18px]">
                     {navLinks.map(link => (
                         <a key={link.label} href={link.href} className="relative group font-semibold hover:scale-104 duration-200 hover:text-[#8B1E23]">
 

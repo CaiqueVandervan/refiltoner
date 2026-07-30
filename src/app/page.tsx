@@ -2,9 +2,9 @@ import WhatsappButton from "@/components/WhatsappButton"
 import NavBar from "@/components/sections/NavBar"
 import Hero from "@/components/sections/Hero"
 import About from "@/components/sections/About"
-import WhoWeServe from "@/components/sections/WhoWeServe"
 import Contact from "@/components/sections/Contact"
 import OurServices from "@/components/sections/OurServices"
+import Footer from "@/components/sections/Footer"
 
 const Refiltoner = () => {
 
@@ -16,11 +16,9 @@ const Refiltoner = () => {
 
       <OurServices />
 
-      <WhoWeServe />
-
       <About />
 
-      <Contact />
+      <Footer />
 
       <WhatsappButton />
     </main>
