@@ -17,9 +17,9 @@ export default function Hero() {
                 <div className="flex flex-col gap-4 items-center">
                     <h2 className="text-[24px] text-[#33363B] font-bold">Venda, locação e manutenção de impressoras, plotter e suprimentos</h2>
                     <div className="flex gap-10">
-                        <a className="bg-[#8B1E23] p-4 text-white font-semibold rounded-xl hover:scale-105 duration-300 transition cursor-pointer shadow-md hover:shadow-xl flex items-center gap-2"
+                        <a className="bg-[#8B1E23] p-4 text-white font-semibold rounded-xl hover:scale-105 duration-300 transition cursor-pointer shadow-md hover:shadow-xl flex items-center gap-2 group"
                             href="#nossosservicos">
-                            Conheças nossos Serviços <Icon icon="grommet-icons:services" /></a>
+                            Conheças nossos Serviços <Icon icon="grommet-icons:services" className="group-hover:rotate-180 transition duration-400" /></a>
 
                         <a href="https://google.com" target="_blank" className="underline flex items-center gap-1">Entre em Contato <Icon icon="mdi:message-arrow-right" /></a>
                     </div>
