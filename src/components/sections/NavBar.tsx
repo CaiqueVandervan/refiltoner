@@ -14,7 +14,7 @@ export default function NavBar() {
     return (
         <nav>
             <header className="fixed inset-x-0 bg-white shadow-lg z-20 flex justify-between items-center px-20 py-4">
-                <div className="absolute bg-[url(/fundoNav4.png)] inset-0 z-0 bg-cover bg-center" />
+                <div className="absolute bg-[url(/fundoNav.png)] inset-0 z-0 bg-cover bg-center" />
 
                 <div className="z-10 pl-42 pb-2">
                     <a href="#">

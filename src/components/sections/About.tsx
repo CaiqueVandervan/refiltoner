@@ -2,7 +2,7 @@ import Contact from "./Contact";
 
 export default function About() {
     return (
-        <section id="sobre" className="relative bg-[url('/fundoAbout4.png')] bg-cover bg-center px-22 p-8">
+        <section id="sobre" className="relative bg-[url('/fundoAbout.png')] bg-cover bg-center px-22 p-8">
 
             <h1 className="text-[#33363B] font-bold text-[20px] text-center">Sobre nossa empresa</h1>
 

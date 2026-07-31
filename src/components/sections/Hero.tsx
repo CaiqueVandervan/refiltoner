@@ -5,7 +5,7 @@ import HeroBackground from "../HeroBackground"
 export default function Hero() {
 
     return (
-        <section className="relative h-[92vh] bg-[url('/fundoHero5.png')] bg-cover bg-center">
+        <section className="relative h-[92vh] bg-[url('/fundoHero.png')] bg-cover bg-center">
 
             <div className="pt-60 pl-20 z-1 flex flex-col gap-16 w-2/4 items-center">
                 <div className="flex flex-col">
